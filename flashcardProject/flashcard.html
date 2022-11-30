@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard Project</title>
+    <link rel="stylesheet" href="flashcard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-box">
+        <div class="head">
+          <div class="heading">
+            <h2>Flashcards</h2>
+          </div>
+          <div class="button">
+            <button id="btn">Add Question</button>
+          </div>
+          <div class="feedback"></div>
+        </div>
+
+        <div class="box" id="box">
+          <div class="cross-btn">✖</div>
+
+          <form class="form" id="form">
+            <div id="question-form">
+              <h3 class="label-question">Question</h3>
+            </div>
+            <div id="ask-Question">
+              <textarea
+                id="question-input"
+                class="w-1000 context"
+                rows="5"
+                cols="42"
+              ></textarea>
+            </div>
+
+            <div id="answer-form">
+              <h3 class="label-answer">Answer</h3>
+            </div>
+            <div id="write-answer">
+              <textarea
+                id="answer-input"
+                class="w-300 context"
+                rows="5"
+                cols="42"
+              ></textarea>
+            </div>
+            <div class="submit-btn">
+              <button class="submit">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="Ques-Box" id="questions-list">
+        <!-- <div class="col-md-4">
+        <div class="ans-box">
+        <div class="question-list">Questions</div>
+        <div class="toggle-ques">
+          <a href="#" class="toggle-ans">Show/Hide Answer</a>
+        </div>
+        <h3 class="answer mb-3">Answers</h3>
+        <div class="buttons">
+          <button class="btn-edit edit" id="edit" data-id="">Edit</button>
+          <button class="btn-edit delete" id="delete" data-id="">Delete</button>
+        </div>
+      </div>
+    </div> -->
+      </div>
+    </div>
+
+    <script src="flashcard.js"></script>
+  </body>
+</html>

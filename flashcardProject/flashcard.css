@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(243, 243, 243);
+}
+.container {
+  margin: 20px 250px;
+}
+.cross-btn {
+  background-color: rgb(255, 116, 116);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  float: right;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+.cross-btn:hover {
+  background-color: rgb(2, 136, 194);
+}
+.heading {
+  font-size: 20px;
+}
+#btn {
+  transition: all 1s ease-in-out;
+  color: rgb(255, 116, 116);
+  background-color: transparent;
+  border: 1px solid rgb(255, 116, 116);
+  height: 35px;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+#btn:hover {
+  background-color: rgb(255, 116, 116);
+  color: black;
+}
+.box {
+  border: 1px solid rgb(255, 116, 116);
+  width: 600px;
+  border-radius: 5px;
+}
+.form {
+  margin: 10px 50px;
+}
+.context {
+  margin: 10px 0px;
+  align-items: center;
+  border: 1px solid rgb(255, 116, 116);
+  position: static;
+  height: inherit;
+  border-radius: 5px;
+}
+.submit {
+  border: 3px solid green;
+  background-color: transparent;
+  width: 250px;
+  border-radius: 4px;
+  height: 40px;
+  padding: 5px 0px;
+  font-size: 20px;
+}
+.submit:hover {
+  transition: all 1s ease-in-out;
+  background-color: green;
+  color: white;
+}
+.Ques-Box {
+  border: 1px solid rgb(188, 188, 188);
+  width: 300px;
+  margin: 30px 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.ans-box {
+  margin: 20px 8px;
+}
+.question-list {
+  font-size: 30px;
+}
+.toggle-ques {
+  margin: 25px 0px;
+}
+.toggle-ans {
+  text-decoration: none;
+  color: rgb(63, 181, 228);
+  font-size: 17px;
+}
+.toggle-ans:hover {
+  text-decoration: underline;
+}
+.answer {
+  margin: 20px 0px;
+}
+.btn-edit {
+  height: 40px;
+  font-size: 17px;
+}
+#edit {
+  width: 50px;
+  border: 4px solid rgb(1, 80, 130);
+  color: rgb(1, 80, 130);
+  border-radius: 5px;
+  background-color: transparent;
+}
+#delete {
+  width: 70px;
+  border: 4px solid rgb(255, 116, 116);
+  color: rgb(255, 116, 116);
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+#edit:hover {
+  background-color: rgb(1, 80, 130);
+  color: white;
+}
+#delete:hover {
+  background-color: rgb(255, 116, 116);
+  color: white;
+}
+#question-input {
+  font-size: 20px;
+  padding: 6px;
+}
+#answer-input {
+  padding: 6px;
+  font-size: 20px;
+}
+.showItem {
+  display: block;
+}
